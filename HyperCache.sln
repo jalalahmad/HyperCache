@@ -1,7 +1,35 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperCache", "HyperCache\HyperCache.csproj", "{6F4E15F2-485B-4787-BFE3-6EC281028B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperCache.Test", "HyperCache.Test\HyperCache.Test.csproj", "{16D0743B-8E38-47B4-AC56-8D3CEC9BE97F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0111D593-3B8F-48A0-93EA-72C133D359EF}"
+	ProjectSection(SolutionItems) = preProject
+		HyperCache.vsmdi = HyperCache.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HyperCache.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F4E15F2-485B-4787-BFE3-6EC281028B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4E15F2-485B-4787-BFE3-6EC281028B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4E15F2-485B-4787-BFE3-6EC281028B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4E15F2-485B-4787-BFE3-6EC281028B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D0743B-8E38-47B4-AC56-8D3CEC9BE97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D0743B-8E38-47B4-AC56-8D3CEC9BE97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D0743B-8E38-47B4-AC56-8D3CEC9BE97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D0743B-8E38-47B4-AC56-8D3CEC9BE97F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
